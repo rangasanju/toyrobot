@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "spring",
+      "type": "com.nab.toyrobot.service.TableServiceImpl",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.commands",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    },
+    {
+      "name": "spring.direction-map",
+      "type": "java.util.Map<java.lang.String,java.util.List<java.lang.Integer>>",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    },
+    {
+      "name": "spring.table",
+      "type": "com.nab.toyrobot.model.RobotTable",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    },
+    {
+      "name": "spring.table-breadth",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    },
+    {
+      "name": "spring.table-length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.nab.toyrobot.service.TableServiceImpl"
+    }
+  ],
+  "hints": []
+}
